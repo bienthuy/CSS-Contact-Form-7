@@ -1,0 +1,216 @@
+<strong>CSS background và border cho form:</strong>
+
+/* CSS background và border Contact Form 7
+----------------------------------------------- */
+
+.wpcf7 {
+     background: #A3A3A3;
+     border: 1 px solid #494949 ;
+     text-align: left;
+     width: 700 px; //%
+}
+
+
+
+<strong>CSS canh lề cho CF7</strong>
+
+/* CSS các trường thông tin nhập vào
+--------------------------------- */
+
+.wpcf7 input[type = "text"],
+.wpcf7 input[type = "email"],
+.wpcf7 input[type = "tel"],
+textarea
+{
+    font-size: 16px;
+    background: #f5f5f5 ;
+    border: 1px solid #e4e4e4;
+    color: #000 ;
+    width: 95%;
+    padding: 2%;
+}
+.wpcf7-text:focus, .wpcf7-textarea:focus {
+    border-color: #129FEA;
+}
+
+<strong>CSS cho nút call-to-action của form</strong>
+
+/*Label Font*/
+.wpcf7-form p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Submit button Font*/
+.wpcf7-submit {
+    width: 100%;
+    font-size: 15px !important;
+    background: #4a97c2 !important;
+    color: #fff !important;
+}
+/*Submit button Hover*/
+.wpcf7-submit:hover {
+    background: #3b86b0 !important;
+}
+
+/* Button submit Contact Form 7 
+------------------------------- */
+
+.wpcf7 input[type = "submit"] {
+    color: #ffffff;
+    font-size: 18 px;
+    font-weight: 700;
+    background: #9ED9330;
+    padding: 15px 25px 15px 25px;
+    border: none;
+    border-radius: 5px;
+    width: auto;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.wpcf7 input:hover[type = "submit"] {
+    background: #494949;
+    transition: all 0,4s ease 0s;
+}
+
+.wpcf7 input:active[type = "submit"] {
+    background: #000000;
+}
+/*Response messages - Error &amp; Success*/
+.wpcf7-response-output {
+    margin-bottom: 30px !important;
+}
+
+
+
+
+Đây là CSS hoàn chỉnh để căn chỉnh lại form và input cho Contact Form 7
+
+
+
+/*Form width*/
+.wpcf7 {
+    text-align: left;
+    width: 40%;
+}
+
+/*Input Field widths*/
+.wpcf7-text, .wpcf7-textarea {
+    width: 100%;
+    border: 1px solid #e4e4e4;
+    background: #f7f7f7;
+}
+
+.wpcf7-text:focus, .wpcf7-textarea:focus {
+    border-color: #129FEA;
+}
+
+/*Label Font*/
+.wpcf7-form p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Submit button Font*/
+.wpcf7-submit {
+    width: 100%;
+    font-size: 15px !important;
+    background: #4a97c2 !important;
+    color: #fff !important;
+}
+
+/*Submit button Hover*/
+.wpcf7-submit:hover {
+    background: #3b86b0 !important;
+}
+
+/*Response messages - Error &amp; Success*/
+.wpcf7-response-output {
+    margin-bottom: 30px !important;
+}
+
+/***********borders************/
+
+/*Form border*/
+.wpcf7 {
+    border: 1px solid #B7B7B7;
+    padding: 20px 25px !important;
+    padding-bottom: 0px !important;
+}
+
+/*Input Field borders*/
+.wpcf7-text:focus, .wpcf7-textarea:focus {
+    border-color: #8F8F8F !important;
+}
+
+/*Submit button Background*/
+.wpcf7-submit {
+    background: #7E7E7E !important;
+    color: #fff !important;
+}
+
+/*Submit button Hover*/
+.wpcf7-submit:hover {
+    background: #5F5F5F !important;
+}
+
+/***********colors************/
+
+/*Submit button background &amp; border*/
+.wpcf7-submit {
+    background-color: transparent !important;
+    border: 2px solid #5A5050 !important;
+    color: #5A5050 !important;
+    font-weight: bold !important;
+}
+
+/*Submit button Hover styles*/
+.wpcf7-submit:hover {
+    background-color: transparent !important;    
+	border-color: #4CAF50 !important;
+	color: #4CAF50 !important;
+}
+
+/*Label Text color*/
+.wpcf7-form p {
+    color: #9E9E9E;
+}
+
+/*Input Field Text color*/
+.wpcf7-text, .wpcf7-textarea {
+	color: #777;
+}
+
+/****background-images********/
+
+/*Form background*/
+.wpcf7 {
+    background-image: url(http://i.imgur.com/iAFPf0G.jpg);
+    background-color: rgba(255, 255, 255, 0.2);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Label Text color*/
+.wpcf7-form p {
+    color: #FFFFFF;
+}
+
+/*Submit button background &amp; border*/
+.wpcf7-submit {
+    border: 2px solid #FFFFFF !important;
+    color: #FFFFFF !important;
+}
+
+/*Submit button Hover styles*/
+.wpcf7-submit:hover {
+    border-color: transparent !important;
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    color: #FFFFFF !important;
+}
+
+/*Input Field border*/
+.wpcf7-text:focus, .wpcf7-textarea:focus {
+    border-color: #5A3D3D !important;
+}
